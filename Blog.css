@@ -1,0 +1,118 @@
+#container {
+    display: flex;  flex-direction: row;
+    align-items: center;
+}
+.box {
+    width: 100%;
+    }
+    @media (min-width: 36em) {
+    .box {
+    max-width: 34em;
+    }
+    }
+    @media (min-width: 48em) {
+    .box {
+    max-width: 45em;
+    }
+    }
+    @media (min-width: 62em) {
+    .box {
+    max-width: 60em;
+    }
+    }
+    @media (min-width: 75em) {
+    .box {
+    max-width: 71em;
+    }
+    }
+    @media (min-width: 88em) {
+    .box {
+    max-width: 82em;
+    }
+    }
+.NavTop {
+    display: flex;  flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.NavTop li {
+    list-style: none;
+}
+.NavTop li a {
+    background-color: #ffffff;
+    padding: 1em;
+    margin: 0.1em;
+    color: #008080;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+.NavTop li a:link {
+    background-color: #ffffff;
+    color: #008080;
+}
+.NavTop li a:hover {
+    background-color: #008080;
+    color: #ffffff;
+}
+.NavTop li a:focus {
+    background-color: #008080;
+    color: #ffffff;
+}
+.links {
+    display: flex;  flex-direction: row;
+}
+.anzor {
+    display: flex;  flex-direction: row;}
+.anzor li {
+    list-style: none;
+    margin: 0.1em;
+    padding: 1em;
+    align-items: center;
+    height: 2em;
+    width: 2em;
+    }
+.anzor a {
+    background-color: #008080;
+    color: #ffffff;
+    border-radius: 50%;
+}
+#GrayCat{
+    border-radius: 0;
+}
+.anzor li a:hover {
+    background-color: #008080;
+    color: #ffffff;
+}
+.anzor li a:focus {
+    background-color: #008080;
+    color: #ffffff;
+}
+header {
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 50%;
+    margin: 1em;
+    padding: 1em;
+    border: 0.1em solid #000000;
+}
+h1 {
+    color: #003080;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 0 auto;
+}
+header {
+    background-image: url(960x540.jpg);
+    justify-content: center;
+    margin: 0 auto;
+}
+/*@keyframes float {
+	to { transform: translate(-50%, calc(-100% - #{$d})); } */
