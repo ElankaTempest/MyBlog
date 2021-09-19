@@ -1,0 +1,42 @@
+<?php
+declare( strict_types=1 );
+abstract class User
+{
+    protected int $_id = '';
+    protected string $_firstName = '';
+    protected string $_lastName = '';
+
+    public function __construct ();
+    {
+
+    }
+
+    public function getId(): int
+    {
+        return $this->_id;
+    }
+    public function setId( int $id ): void
+    {
+        $this->_id = $id;
+    }
+
+    public function getFirstName(): string
+    {
+        return $this->_firstName;
+    }
+    public function setFirstName( string $firstName ): void
+    {
+        $this->_firstName = $firstName;
+    }
+
+    public function getFirstName(): string
+    {
+        return $this->_firstName;
+    }
+    public function setFirstName( string $firstName ): void
+    {
+        $this->_firstName = $firstName;
+    }
+}
+
+?>

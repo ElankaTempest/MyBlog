@@ -21,6 +21,8 @@
         $city_name = ucfirst($city_name);
         return $city_name;
     }
+    if ( $city != empty($city) )
+    
 
     echo( capitalize($city) );
 ?>
